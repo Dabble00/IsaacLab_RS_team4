@@ -184,6 +184,9 @@ def main(env_cfg: ManagerBasedRLEnvCfg | DirectRLEnvCfg | DirectMARLEnvCfg, agen
     # reset environment
     obs = env.get_observations()
     timestep = 0
+    episode_rewards = torch.zeros(env.num_envs, dtype=torch.float64, device=env.device)
+    episode_steps = torch.zeros(env.num_envs, dtype=torch.long, device=env.device)
+    finished = torch.zeros(env.num_envs, dtype=torch.bool, device=env.device)
     # simulate environment
     while simulation_app.is_running():
         start_time = time.time()
@@ -193,22 +196,46 @@ def main(env_cfg: ManagerBasedRLEnvCfg | DirectRLEnvCfg | DirectMARLEnvCfg, agen
             actions = policy(obs)
             # env stepping
             obs, rewards, dones, extras = env.step(actions)
+            # Include the terminal step, then ignore auto-reset episodes for finished environments.
+            active = ~finished
+            episode_rewards[active] += rewards[active]
+            episode_steps[active] += 1
+            finished |= dones.bool()
         timestep += 1
 
-        # stop as soon as the first environment finishes its episode
-        if dones[0].item():
-            print(f"[INFO] Episode finished after {timestep} steps.")
+        # Wait for the first episode of every environment to finish.
+        if finished.all().item():
+            print(f"[INFO] All {env.num_envs} environments finished their first episode.")
             break
 
-        # safety fallback in case the environment does not emit a termination signal
-        if timestep >= args_cli.video_length:
-            print(f"[INFO] Reached maximum video length: {args_cli.video_length}")
+        # Recording length must not truncate episode statistics.
+        if timestep >= env.max_episode_length:
+            print(f"[INFO] Reached maximum episode length: {env.max_episode_length}")
             break
 
         # time delay for real-time evaluation
         sleep_time = dt - (time.time() - start_time)
         if args_cli.real_time and sleep_time > 0:
             time.sleep(sleep_time)
+
+    completed = int(finished.sum().item())
+    print(f"[INFO] Completed first episodes: {completed}/{env.num_envs}")
+    if completed != env.num_envs:
+        print("[INFO] Statistics include partial episodes for unfinished environments.")
+    if env.num_envs == 1:
+        print(f"[RESULT] Episode reward total: {episode_rewards[0].item():.6f}")
+        print(f"[RESULT] Episode steps: {episode_steps[0].item()}")
+    else:
+        # Population standard deviation across the evaluated environments.
+        steps = episode_steps.to(dtype=torch.float64)
+        print(
+            f"[RESULT] Episode reward total: mean={episode_rewards.mean().item():.6f}, "
+            f"std={episode_rewards.std(unbiased=False).item():.6f}"
+        )
+        print(
+            f"[RESULT] Episode steps: mean={steps.mean().item():.6f}, "
+            f"std={steps.std(unbiased=False).item():.6f}"
+        )
 
     # close the simulator
     env.close()
