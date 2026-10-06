@@ -1,0 +1,37 @@
+4조 과제 1 평가 명령어 (모델: 구르기, 태스크 Isaac-Ant-Final-J200C-v0)
+
+저장소: https://github.com/Dabble00/IsaacLab_RS_team4
+체크포인트: logs/rsl_rl/ant/2026-10-02_12-19-07_fun17_roll15/model_13195.pt
+
+1. 환경
+conda activate lerobot-arena
+cd ~/IsaacLab_RS
+
+2. 보행 확인 (16마리)
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py \
+    --task Isaac-Ant-Final-J200C-v0 \
+    --seed 24 \
+    --num_envs 16 \
+    --checkpoint logs/rsl_rl/ant/2026-10-02_12-19-07_fun17_roll15/model_13195.pt
+
+3. 한 에피소드 녹화
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play_one_episode.py \
+    --task Isaac-Ant-Final-J200C-v0 \
+    --seed 24 \
+    --num_envs 1 \
+    --checkpoint logs/rsl_rl/ant/2026-10-02_12-19-07_fun17_roll15/model_13195.pt \
+    --video \
+    --video_length 960
+
+4. 평가 (100마리, 평균·표준편차)
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play_one_episode.py \
+    --task Isaac-Ant-Final-J200C-v0 \
+    --seed 24 \
+    --num_envs 100 \
+    --headless \
+    --checkpoint logs/rsl_rl/ant/2026-10-02_12-19-07_fun17_roll15/model_13195.pt
+
+- 보상은 원본 Isaac-Ant-v0 의 7개 항 그대로이고 play_one_episode.py 는 수업 자료 원본이다.
+- 이 태스크는 지형 설정(scene.terrain)을 원본 AntEnvCfg 에서 그대로 물려받는다. 평가 지형은 원본과 같은 방법으로 scene.terrain 만 바꾸면 된다 (지형 프림 /World/ground).
+- 원본과 다른 점: 관측 240 (높이 센서 180 추가), 로봇 접촉 여유 0.04 m, 관절 가동 범위 ±100°, 자기 충돌 켬. 상세: docs/assignment1/CHANGES.md
+- 평지 측정값: mean=182.544642, std=20.035839

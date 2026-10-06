@@ -1,0 +1,399 @@
+{
+ "generation": 0,
+ "lanes": [
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "discs",
+     "seed": 654571,
+     "count": 6,
+     "radius": 0.6222,
+     "height": 0.1137
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 526478,
+     "count": 20,
+     "radius": 0.9611,
+     "height": 0.2029
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 839748,
+     "count": 10,
+     "radius": 0.5708,
+     "height": 0.2339
+    },
+    {
+     "kind": "discs",
+     "seed": 643865,
+     "count": 6,
+     "radius": 0.3939,
+     "height": 0.0573
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 554584,
+     "count": 18,
+     "radius": 1.0276,
+     "height": 0.169
+    },
+    {
+     "kind": "noise",
+     "seed": 165229,
+     "amp": 0.1145,
+     "wavelength": 3.9121,
+     "octaves": 3
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "terraces",
+     "seed": 677919,
+     "steps": 5,
+     "rise": 0.0534,
+     "tread": 0.9134,
+     "angle": -0.7299
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 743375,
+     "count": 14,
+     "radius": 0.9448,
+     "height": 0.2429
+    },
+    {
+     "kind": "ramp",
+     "seed": 325825,
+     "slope": 0.2482,
+     "angle": -0.0487,
+     "length": 1.5684
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 686478,
+     "count": 11,
+     "radius": 0.4269,
+     "height": 0.1774
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ramp",
+     "seed": 160688,
+     "slope": 0.3801,
+     "angle": -0.3002,
+     "length": 3.4968
+    },
+    {
+     "kind": "terraces",
+     "seed": 435216,
+     "steps": 6,
+     "rise": 0.0765,
+     "tread": 0.7172,
+     "angle": 0.292
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 832736,
+     "count": 5,
+     "radius": 0.2074,
+     "height": 0.2031
+    },
+    {
+     "kind": "discs",
+     "seed": 664850,
+     "count": 7,
+     "radius": 0.5794,
+     "height": 0.0851
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ridges",
+     "seed": 568741,
+     "amp": 0.034,
+     "wavelength": 1.2291,
+     "angle": 0.4042
+    },
+    {
+     "kind": "bars",
+     "seed": 471096,
+     "count": 7,
+     "width": 0.659,
+     "height": 0.1062,
+     "length": 3.7679
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "noise",
+     "seed": 559207,
+     "amp": 0.1038,
+     "wavelength": 1.0925,
+     "octaves": 2
+    },
+    {
+     "kind": "ramp",
+     "seed": 982738,
+     "slope": 0.2634,
+     "angle": 0.5654,
+     "length": 1.7018
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "terraces",
+     "seed": 58302,
+     "steps": 6,
+     "rise": 0.0652,
+     "tread": 1.1281,
+     "angle": 0.0913
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ridges",
+     "seed": 783898,
+     "amp": 0.0864,
+     "wavelength": 1.8128,
+     "angle": 0.7536
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "bumps",
+     "seed": 334291,
+     "count": 2,
+     "radius": 0.29,
+     "height": 0.1889
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ridges",
+     "seed": 717058,
+     "amp": 0.0701,
+     "wavelength": 1.3046,
+     "angle": 0.4712
+    },
+    {
+     "kind": "bumps",
+     "seed": 495625,
+     "count": 10,
+     "radius": 0.581,
+     "height": 0.0963
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "cells",
+     "seed": 607196,
+     "cell": 0.4964,
+     "height": 0.0442,
+     "tilt": 0.2886
+    },
+    {
+     "kind": "boxgrid",
+     "seed": 366263,
+     "cell": 0.5099,
+     "height": 0.0546
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "discs",
+     "seed": 969176,
+     "count": 4,
+     "radius": 0.5443,
+     "height": 0.0839
+    },
+    {
+     "kind": "discs",
+     "seed": 736919,
+     "count": 4,
+     "radius": 0.203,
+     "height": 0.1383
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ridges",
+     "seed": 704032,
+     "amp": 0.0506,
+     "wavelength": 2.1584,
+     "angle": -0.7757
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "ridges",
+     "seed": 856614,
+     "amp": 0.0959,
+     "wavelength": 2.4389,
+     "angle": -0.163
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "procedural",
+   "genome": [
+    {
+     "kind": "cells",
+     "seed": 140224,
+     "cell": 1.1148,
+     "height": 0.0401,
+     "tilt": 0.1247
+    }
+   ],
+   "born": 0
+  },
+  {
+   "type": "lib_stairs_up"
+  },
+  {
+   "type": "lib_stairs_down"
+  },
+  {
+   "type": "lib_boxes"
+  },
+  {
+   "type": "lib_obstacles"
+  },
+  {
+   "type": "lib_wave"
+  },
+  {
+   "type": "lib_slope_up"
+  },
+  {
+   "type": "lib_slope_down"
+  },
+  {
+   "type": "libh_stairs_up"
+  },
+  {
+   "type": "libh_boxes"
+  },
+  {
+   "type": "libh_obstacles"
+  },
+  {
+   "type": "libh_wave"
+  },
+  {
+   "type": "libh_slope_up"
+  },
+  {
+   "type": "libh_pit"
+  },
+  {
+   "type": "libh_gap"
+  },
+  {
+   "type": "libh_rails"
+  },
+  {
+   "type": "libh_stepping"
+  },
+  {
+   "type": "flat"
+  },
+  {
+   "type": "flat"
+  },
+  {
+   "type": "flat"
+  },
+  {
+   "type": "flat"
+  }
+ ],
+ "history": []
+}

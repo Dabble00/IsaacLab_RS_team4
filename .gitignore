@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+outputs/
+**/exported/
+RS_수업자료/**/*.pdf
+logs/
+
+# ---- 과제 1 (4조): 평가 때 생기는 것은 올리지 않음 ----
+results/
+docs/assignment1/models/videos/

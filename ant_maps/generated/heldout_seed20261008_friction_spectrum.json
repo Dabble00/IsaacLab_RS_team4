@@ -1,0 +1,5489 @@
+{
+  "schema_version": 2,
+  "geometry_sha256": "2b45c5ac7d7a0a589cedefb3b3e1cf787f3092ee09714cd6b70fb4ab6c95da70",
+  "versions": {
+    "isaaclab": "2.3.0",
+    "isaaclab_package": "0.47.2",
+    "isaacsim": "5.1.0",
+    "numpy": "1.26.0",
+    "torch": "2.7.0+cu128"
+  },
+  "generator": {
+    "seed": 20261008,
+    "rows": 20,
+    "cols": 10,
+    "tile_size": 8.0,
+    "border_width": 20.0,
+    "difficulty": [
+      0.15,
+      0.55
+    ],
+    "mix": {
+      "pyramid_stairs_inv": 0.18,
+      "flat": 0.1,
+      "boxes": 0.18,
+      "random_rough": 0.18,
+      "pyramid_stairs": 0.18,
+      "hf_pyramid_slope": 0.09,
+      "hf_pyramid_slope_inv": 0.09
+    },
+    "static_friction": 1.0,
+    "dynamic_friction": 1.0,
+    "friction_by_type": {},
+    "preset": "heldout_evaluation",
+    "friction_levels": {
+      "ice": [
+        0.05,
+        0.03
+      ],
+      "slippery": [
+        0.25,
+        0.2
+      ],
+      "low": [
+        0.5,
+        0.4
+      ],
+      "medium": [
+        0.75,
+        0.6
+      ],
+      "high": [
+        1.0,
+        0.8
+      ],
+      "rubber": [
+        1.25,
+        1.0
+      ]
+    },
+    "material_seed": 20279943
+  },
+  "physics": {
+    "friction_by_group": {
+      "pyramid_stairs_inv_slippery": [
+        0.25,
+        0.2
+      ],
+      "flat": [
+        1.0,
+        1.0
+      ],
+      "boxes_high": [
+        1.0,
+        0.8
+      ],
+      "random_rough_medium": [
+        0.75,
+        0.6
+      ],
+      "pyramid_stairs_high": [
+        1.0,
+        0.8
+      ],
+      "pyramid_stairs_inv_low": [
+        0.5,
+        0.4
+      ],
+      "pyramid_stairs_inv_rubber": [
+        1.25,
+        1.0
+      ],
+      "hf_pyramid_slope_low": [
+        0.5,
+        0.4
+      ],
+      "boxes_ice": [
+        0.05,
+        0.03
+      ],
+      "pyramid_stairs_rubber": [
+        1.25,
+        1.0
+      ],
+      "hf_pyramid_slope_medium": [
+        0.75,
+        0.6
+      ],
+      "hf_pyramid_slope_ice": [
+        0.05,
+        0.03
+      ],
+      "random_rough_low": [
+        0.5,
+        0.4
+      ],
+      "random_rough_rubber": [
+        1.25,
+        1.0
+      ],
+      "random_rough_slippery": [
+        0.25,
+        0.2
+      ],
+      "hf_pyramid_slope_inv_high": [
+        1.0,
+        0.8
+      ],
+      "pyramid_stairs_ice": [
+        0.05,
+        0.03
+      ],
+      "pyramid_stairs_medium": [
+        0.75,
+        0.6
+      ],
+      "boxes_low": [
+        0.5,
+        0.4
+      ],
+      "random_rough_ice": [
+        0.05,
+        0.03
+      ],
+      "boxes_rubber": [
+        1.25,
+        1.0
+      ],
+      "boxes_slippery": [
+        0.25,
+        0.2
+      ],
+      "pyramid_stairs_inv_ice": [
+        0.05,
+        0.03
+      ],
+      "hf_pyramid_slope_inv_rubber": [
+        1.25,
+        1.0
+      ],
+      "boxes_medium": [
+        0.75,
+        0.6
+      ],
+      "hf_pyramid_slope_rubber": [
+        1.25,
+        1.0
+      ],
+      "pyramid_stairs_inv_medium": [
+        0.75,
+        0.6
+      ],
+      "pyramid_stairs_low": [
+        0.5,
+        0.4
+      ],
+      "hf_pyramid_slope_inv_ice": [
+        0.05,
+        0.03
+      ],
+      "hf_pyramid_slope_inv_medium": [
+        0.75,
+        0.6
+      ],
+      "hf_pyramid_slope_slippery": [
+        0.25,
+        0.2
+      ],
+      "pyramid_stairs_slippery": [
+        0.25,
+        0.2
+      ],
+      "random_rough_high": [
+        1.0,
+        0.8
+      ],
+      "hf_pyramid_slope_high": [
+        1.0,
+        0.8
+      ],
+      "hf_pyramid_slope_inv_low": [
+        0.5,
+        0.4
+      ],
+      "hf_pyramid_slope_inv_slippery": [
+        0.25,
+        0.2
+      ],
+      "pyramid_stairs_inv_high": [
+        1.0,
+        0.8
+      ],
+      "border": [
+        1.0,
+        1.0
+      ]
+    },
+    "friction_combine_mode": "multiply",
+    "restitution_combine_mode": "average",
+    "restitution": 0.0
+  },
+  "terrain_origins": [
+    [
+      [
+        -76.0,
+        -36.0,
+        -0.6023207902908325
+      ],
+      [
+        -76.0,
+        -28.0,
+        0.0
+      ],
+      [
+        -76.0,
+        -20.0,
+        0.1319839209318161
+      ],
+      [
+        -76.0,
+        -12.0,
+        0.0
+      ],
+      [
+        -76.0,
+        -4.0,
+        0.0
+      ],
+      [
+        -76.0,
+        4.0,
+        0.10000000149011612
+      ],
+      [
+        -76.0,
+        12.0,
+        0.0
+      ],
+      [
+        -76.0,
+        20.0,
+        0.0
+      ],
+      [
+        -76.0,
+        28.0,
+        1.0113474130630493
+      ],
+      [
+        -76.0,
+        36.0,
+        -0.9365342259407043
+      ]
+    ],
+    [
+      [
+        -68.0,
+        -36.0,
+        1.0178840160369873
+      ],
+      [
+        -68.0,
+        -28.0,
+        -0.8025199174880981
+      ],
+      [
+        -68.0,
+        -20.0,
+        0.23999999463558197
+      ],
+      [
+        -68.0,
+        -12.0,
+        0.0781160444021225
+      ],
+      [
+        -68.0,
+        -4.0,
+        0.6953011155128479
+      ],
+      [
+        -68.0,
+        4.0,
+        0.0872211679816246
+      ],
+      [
+        -68.0,
+        12.0,
+        0.2750000059604645
+      ],
+      [
+        -68.0,
+        20.0,
+        0.14000000059604645
+      ],
+      [
+        -68.0,
+        28.0,
+        0.10000000149011612
+      ],
+      [
+        -68.0,
+        36.0,
+        0.10000000149011612
+      ]
+    ],
+    [
+      [
+        -60.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        -60.0,
+        -28.0,
+        -0.38999998569488525
+      ],
+      [
+        -60.0,
+        -20.0,
+        0.0
+      ],
+      [
+        -60.0,
+        -12.0,
+        0.6346501111984253
+      ],
+      [
+        -60.0,
+        -4.0,
+        0.8145512938499451
+      ],
+      [
+        -60.0,
+        4.0,
+        0.0
+      ],
+      [
+        -60.0,
+        12.0,
+        0.0
+      ],
+      [
+        -60.0,
+        20.0,
+        0.0
+      ],
+      [
+        -60.0,
+        28.0,
+        0.0
+      ],
+      [
+        -60.0,
+        36.0,
+        0.11476591974496841
+      ]
+    ],
+    [
+      [
+        -52.0,
+        -36.0,
+        0.8701345920562744
+      ],
+      [
+        -52.0,
+        -28.0,
+        0.10000000149011612
+      ],
+      [
+        -52.0,
+        -20.0,
+        0.1086847335100174
+      ],
+      [
+        -52.0,
+        -12.0,
+        0.6161430478096008
+      ],
+      [
+        -52.0,
+        -4.0,
+        0.11888767033815384
+      ],
+      [
+        -52.0,
+        4.0,
+        -1.012642502784729
+      ],
+      [
+        -52.0,
+        12.0,
+        -0.3700000047683716
+      ],
+      [
+        -52.0,
+        20.0,
+        0.10000000149011612
+      ],
+      [
+        -52.0,
+        28.0,
+        0.11693207174539566
+      ],
+      [
+        -52.0,
+        36.0,
+        0.2849999964237213
+      ]
+    ],
+    [
+      [
+        -44.0,
+        -36.0,
+        0.8824031352996826
+      ],
+      [
+        -44.0,
+        -28.0,
+        0.10567832738161087
+      ],
+      [
+        -44.0,
+        -20.0,
+        0.0
+      ],
+      [
+        -44.0,
+        -12.0,
+        0.0
+      ],
+      [
+        -44.0,
+        -4.0,
+        0.0
+      ],
+      [
+        -44.0,
+        4.0,
+        -0.9160525798797607
+      ],
+      [
+        -44.0,
+        12.0,
+        0.0
+      ],
+      [
+        -44.0,
+        20.0,
+        0.0
+      ],
+      [
+        -44.0,
+        28.0,
+        0.0
+      ],
+      [
+        -44.0,
+        36.0,
+        0.09018351137638092
+      ]
+    ],
+    [
+      [
+        -36.0,
+        -36.0,
+        0.8688867092132568
+      ],
+      [
+        -36.0,
+        -28.0,
+        0.5886664986610413
+      ],
+      [
+        -36.0,
+        -20.0,
+        -0.54991215467453
+      ],
+      [
+        -36.0,
+        -12.0,
+        0.7557744979858398
+      ],
+      [
+        -36.0,
+        -4.0,
+        0.08716820180416107
+      ],
+      [
+        -36.0,
+        4.0,
+        0.9448734521865845
+      ],
+      [
+        -36.0,
+        12.0,
+        -0.2549999952316284
+      ],
+      [
+        -36.0,
+        20.0,
+        0.10000000149011612
+      ],
+      [
+        -36.0,
+        28.0,
+        0.7127901911735535
+      ],
+      [
+        -36.0,
+        36.0,
+        0.07487933337688446
+      ]
+    ],
+    [
+      [
+        -28.0,
+        -36.0,
+        -0.6174683570861816
+      ],
+      [
+        -28.0,
+        -28.0,
+        -0.8032436966896057
+      ],
+      [
+        -28.0,
+        -20.0,
+        0.0
+      ],
+      [
+        -28.0,
+        -12.0,
+        -0.692502498626709
+      ],
+      [
+        -28.0,
+        -4.0,
+        0.5942321419715881
+      ],
+      [
+        -28.0,
+        4.0,
+        0.0
+      ],
+      [
+        -28.0,
+        12.0,
+        0.0950336754322052
+      ],
+      [
+        -28.0,
+        20.0,
+        -0.29499998688697815
+      ],
+      [
+        -28.0,
+        28.0,
+        1.0365813970565796
+      ],
+      [
+        -28.0,
+        36.0,
+        0.6052830219268799
+      ]
+    ],
+    [
+      [
+        -20.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        -20.0,
+        -28.0,
+        0.14000000059604645
+      ],
+      [
+        -20.0,
+        -20.0,
+        0.20499999821186066
+      ],
+      [
+        -20.0,
+        -12.0,
+        0.3700000047683716
+      ],
+      [
+        -20.0,
+        -4.0,
+        0.08147638291120529
+      ],
+      [
+        -20.0,
+        4.0,
+        0.10000000149011612
+      ],
+      [
+        -20.0,
+        12.0,
+        -0.7857676148414612
+      ],
+      [
+        -20.0,
+        20.0,
+        0.10000000149011612
+      ],
+      [
+        -20.0,
+        28.0,
+        1.0337527990341187
+      ],
+      [
+        -20.0,
+        36.0,
+        0.9589568972587585
+      ]
+    ],
+    [
+      [
+        -12.0,
+        -36.0,
+        0.07789541780948639
+      ],
+      [
+        -12.0,
+        -28.0,
+        0.0
+      ],
+      [
+        -12.0,
+        -20.0,
+        0.10000000149011612
+      ],
+      [
+        -12.0,
+        -12.0,
+        0.1065995842218399
+      ],
+      [
+        -12.0,
+        -4.0,
+        0.32499998807907104
+      ],
+      [
+        -12.0,
+        4.0,
+        0.5716762542724609
+      ],
+      [
+        -12.0,
+        12.0,
+        -0.7051786184310913
+      ],
+      [
+        -12.0,
+        20.0,
+        -0.17499999701976776
+      ],
+      [
+        -12.0,
+        28.0,
+        0.0
+      ],
+      [
+        -12.0,
+        36.0,
+        0.9157190322875977
+      ]
+    ],
+    [
+      [
+        -4.0,
+        -36.0,
+        0.5702294111251831
+      ],
+      [
+        -4.0,
+        -28.0,
+        -0.6143089532852173
+      ],
+      [
+        -4.0,
+        -20.0,
+        0.10000000149011612
+      ],
+      [
+        -4.0,
+        -12.0,
+        0.9504895210266113
+      ],
+      [
+        -4.0,
+        -4.0,
+        0.11818774789571762
+      ],
+      [
+        -4.0,
+        4.0,
+        -0.25
+      ],
+      [
+        -4.0,
+        12.0,
+        0.10000000149011612
+      ],
+      [
+        -4.0,
+        20.0,
+        -0.9192838072776794
+      ],
+      [
+        -4.0,
+        28.0,
+        -0.36000001430511475
+      ],
+      [
+        -4.0,
+        36.0,
+        0.10000000149011612
+      ]
+    ],
+    [
+      [
+        4.0,
+        -36.0,
+        0.10153192281723022
+      ],
+      [
+        4.0,
+        -28.0,
+        0.1285254806280136
+      ],
+      [
+        4.0,
+        -20.0,
+        0.10000000149011612
+      ],
+      [
+        4.0,
+        -12.0,
+        -0.9329842925071716
+      ],
+      [
+        4.0,
+        -4.0,
+        -0.789413571357727
+      ],
+      [
+        4.0,
+        4.0,
+        -0.5603969097137451
+      ],
+      [
+        4.0,
+        12.0,
+        -0.20999999344348907
+      ],
+      [
+        4.0,
+        20.0,
+        -0.4000000059604645
+      ],
+      [
+        4.0,
+        28.0,
+        -0.6927536725997925
+      ],
+      [
+        4.0,
+        36.0,
+        0.10000000149011612
+      ]
+    ],
+    [
+      [
+        12.0,
+        -36.0,
+        0.4099999964237213
+      ],
+      [
+        12.0,
+        -28.0,
+        0.22499999403953552
+      ],
+      [
+        12.0,
+        -20.0,
+        0.10000000149011612
+      ],
+      [
+        12.0,
+        -12.0,
+        -0.7565125226974487
+      ],
+      [
+        12.0,
+        -4.0,
+        0.11668618023395538
+      ],
+      [
+        12.0,
+        4.0,
+        -0.9001927971839905
+      ],
+      [
+        12.0,
+        12.0,
+        0.17499999701976776
+      ],
+      [
+        12.0,
+        20.0,
+        0.10000000149011612
+      ],
+      [
+        12.0,
+        28.0,
+        0.7239630222320557
+      ],
+      [
+        12.0,
+        36.0,
+        0.0921376571059227
+      ]
+    ],
+    [
+      [
+        20.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        20.0,
+        -28.0,
+        -0.1599999964237213
+      ],
+      [
+        20.0,
+        -20.0,
+        0.39500001072883606
+      ],
+      [
+        20.0,
+        -12.0,
+        0.10533231496810913
+      ],
+      [
+        20.0,
+        -4.0,
+        0.3449999988079071
+      ],
+      [
+        20.0,
+        4.0,
+        -0.9763326048851013
+      ],
+      [
+        20.0,
+        12.0,
+        0.7055659890174866
+      ],
+      [
+        20.0,
+        20.0,
+        -0.5735323429107666
+      ],
+      [
+        20.0,
+        28.0,
+        -0.1550000011920929
+      ],
+      [
+        20.0,
+        36.0,
+        0.07614452391862869
+      ]
+    ],
+    [
+      [
+        28.0,
+        -36.0,
+        -0.635094165802002
+      ],
+      [
+        28.0,
+        -28.0,
+        -1.0292425155639648
+      ],
+      [
+        28.0,
+        -20.0,
+        0.3499999940395355
+      ],
+      [
+        28.0,
+        -12.0,
+        0.10000000149011612
+      ],
+      [
+        28.0,
+        -4.0,
+        0.9727116823196411
+      ],
+      [
+        28.0,
+        4.0,
+        0.8654404282569885
+      ],
+      [
+        28.0,
+        12.0,
+        0.8291364312171936
+      ],
+      [
+        28.0,
+        20.0,
+        0.7494537830352783
+      ],
+      [
+        28.0,
+        28.0,
+        0.6262528300285339
+      ],
+      [
+        28.0,
+        36.0,
+        0.10115031152963638
+      ]
+    ],
+    [
+      [
+        36.0,
+        -36.0,
+        0.6717362999916077
+      ],
+      [
+        36.0,
+        -28.0,
+        -0.7541419267654419
+      ],
+      [
+        36.0,
+        -20.0,
+        0.8061643242835999
+      ],
+      [
+        36.0,
+        -12.0,
+        -0.13500000536441803
+      ],
+      [
+        36.0,
+        -4.0,
+        0.10000000149011612
+      ],
+      [
+        36.0,
+        4.0,
+        -0.6052377223968506
+      ],
+      [
+        36.0,
+        12.0,
+        0.10000000149011612
+      ],
+      [
+        36.0,
+        20.0,
+        -0.7389163970947266
+      ],
+      [
+        36.0,
+        28.0,
+        0.10000000149011612
+      ],
+      [
+        36.0,
+        36.0,
+        0.3799999952316284
+      ]
+    ],
+    [
+      [
+        44.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        44.0,
+        -28.0,
+        0.10000000149011612
+      ],
+      [
+        44.0,
+        -20.0,
+        -0.24500000476837158
+      ],
+      [
+        44.0,
+        -12.0,
+        -0.8781894445419312
+      ],
+      [
+        44.0,
+        -4.0,
+        0.10000000149011612
+      ],
+      [
+        44.0,
+        4.0,
+        -0.4350000023841858
+      ],
+      [
+        44.0,
+        12.0,
+        0.3449999988079071
+      ],
+      [
+        44.0,
+        20.0,
+        0.9698701500892639
+      ],
+      [
+        44.0,
+        28.0,
+        0.10000000149011612
+      ],
+      [
+        44.0,
+        36.0,
+        0.10000000149011612
+      ]
+    ],
+    [
+      [
+        52.0,
+        -36.0,
+        0.12387499213218689
+      ],
+      [
+        52.0,
+        -28.0,
+        -0.596768319606781
+      ],
+      [
+        52.0,
+        -20.0,
+        0.11922179907560349
+      ],
+      [
+        52.0,
+        -12.0,
+        -0.6119534969329834
+      ],
+      [
+        52.0,
+        -4.0,
+        0.10681012272834778
+      ],
+      [
+        52.0,
+        4.0,
+        0.10000000149011612
+      ],
+      [
+        52.0,
+        12.0,
+        0.10000000149011612
+      ],
+      [
+        52.0,
+        20.0,
+        0.11479615420103073
+      ],
+      [
+        52.0,
+        28.0,
+        0.0764685720205307
+      ],
+      [
+        52.0,
+        36.0,
+        0.08808982372283936
+      ]
+    ],
+    [
+      [
+        60.0,
+        -36.0,
+        0.3449999988079071
+      ],
+      [
+        60.0,
+        -28.0,
+        0.09670832008123398
+      ],
+      [
+        60.0,
+        -20.0,
+        0.10000000149011612
+      ],
+      [
+        60.0,
+        -12.0,
+        0.9286921620368958
+      ],
+      [
+        60.0,
+        -4.0,
+        0.0936008021235466
+      ],
+      [
+        60.0,
+        4.0,
+        0.114134781062603
+      ],
+      [
+        60.0,
+        12.0,
+        -0.41999998688697815
+      ],
+      [
+        60.0,
+        20.0,
+        -0.33500000834465027
+      ],
+      [
+        60.0,
+        28.0,
+        -0.20999999344348907
+      ],
+      [
+        60.0,
+        36.0,
+        0.087699294090271
+      ]
+    ],
+    [
+      [
+        68.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        68.0,
+        -28.0,
+        0.6325618028640747
+      ],
+      [
+        68.0,
+        -20.0,
+        0.3149999976158142
+      ],
+      [
+        68.0,
+        -12.0,
+        -0.32499998807907104
+      ],
+      [
+        68.0,
+        -4.0,
+        -0.6894500255584717
+      ],
+      [
+        68.0,
+        4.0,
+        0.12099441140890121
+      ],
+      [
+        68.0,
+        12.0,
+        0.10000000149011612
+      ],
+      [
+        68.0,
+        20.0,
+        -1.0018868446350098
+      ],
+      [
+        68.0,
+        28.0,
+        0.7136505842208862
+      ],
+      [
+        68.0,
+        36.0,
+        0.11219878494739532
+      ]
+    ],
+    [
+      [
+        76.0,
+        -36.0,
+        0.10000000149011612
+      ],
+      [
+        76.0,
+        -28.0,
+        0.10000000149011612
+      ],
+      [
+        76.0,
+        -20.0,
+        -0.8011801838874817
+      ],
+      [
+        76.0,
+        -12.0,
+        0.13069066405296326
+      ],
+      [
+        76.0,
+        -4.0,
+        0.729830265045166
+      ],
+      [
+        76.0,
+        4.0,
+        -0.7472118735313416
+      ],
+      [
+        76.0,
+        12.0,
+        0.10000000149011612
+      ],
+      [
+        76.0,
+        20.0,
+        -0.9872649312019348
+      ],
+      [
+        76.0,
+        28.0,
+        -0.8199307918548584
+      ],
+      [
+        76.0,
+        36.0,
+        -0.8942790627479553
+      ]
+    ]
+  ],
+  "tile_types": [
+    [
+      "pyramid_stairs_inv",
+      "flat",
+      "boxes",
+      "flat",
+      "flat",
+      "random_rough",
+      "flat",
+      "flat",
+      "pyramid_stairs",
+      "pyramid_stairs_inv"
+    ],
+    [
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope",
+      "boxes",
+      "pyramid_stairs",
+      "boxes",
+      "hf_pyramid_slope",
+      "hf_pyramid_slope",
+      "random_rough",
+      "random_rough"
+    ],
+    [
+      "random_rough",
+      "hf_pyramid_slope_inv",
+      "flat",
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "flat",
+      "flat",
+      "flat",
+      "flat",
+      "boxes"
+    ],
+    [
+      "pyramid_stairs",
+      "random_rough",
+      "boxes",
+      "pyramid_stairs",
+      "boxes",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope_inv",
+      "random_rough",
+      "boxes",
+      "hf_pyramid_slope"
+    ],
+    [
+      "pyramid_stairs",
+      "boxes",
+      "flat",
+      "flat",
+      "flat",
+      "pyramid_stairs_inv",
+      "flat",
+      "flat",
+      "flat",
+      "boxes"
+    ],
+    [
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "pyramid_stairs",
+      "boxes",
+      "pyramid_stairs",
+      "hf_pyramid_slope_inv",
+      "random_rough",
+      "pyramid_stairs",
+      "boxes"
+    ],
+    [
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv",
+      "flat",
+      "pyramid_stairs_inv",
+      "pyramid_stairs",
+      "flat",
+      "boxes",
+      "hf_pyramid_slope_inv",
+      "pyramid_stairs",
+      "pyramid_stairs"
+    ],
+    [
+      "random_rough",
+      "hf_pyramid_slope",
+      "hf_pyramid_slope",
+      "hf_pyramid_slope",
+      "boxes",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "pyramid_stairs",
+      "pyramid_stairs"
+    ],
+    [
+      "boxes",
+      "flat",
+      "random_rough",
+      "boxes",
+      "hf_pyramid_slope",
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope_inv",
+      "flat",
+      "pyramid_stairs"
+    ],
+    [
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "pyramid_stairs",
+      "boxes",
+      "hf_pyramid_slope_inv",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope_inv",
+      "random_rough"
+    ],
+    [
+      "boxes",
+      "boxes",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope_inv",
+      "hf_pyramid_slope_inv",
+      "pyramid_stairs_inv",
+      "random_rough"
+    ],
+    [
+      "hf_pyramid_slope",
+      "hf_pyramid_slope",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "boxes",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope",
+      "random_rough",
+      "pyramid_stairs",
+      "boxes"
+    ],
+    [
+      "random_rough",
+      "hf_pyramid_slope_inv",
+      "hf_pyramid_slope",
+      "boxes",
+      "hf_pyramid_slope",
+      "pyramid_stairs_inv",
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope_inv",
+      "boxes"
+    ],
+    [
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv",
+      "hf_pyramid_slope",
+      "random_rough",
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "pyramid_stairs",
+      "boxes"
+    ],
+    [
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "pyramid_stairs",
+      "hf_pyramid_slope_inv",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "hf_pyramid_slope"
+    ],
+    [
+      "random_rough",
+      "random_rough",
+      "hf_pyramid_slope_inv",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "hf_pyramid_slope_inv",
+      "hf_pyramid_slope",
+      "pyramid_stairs",
+      "random_rough",
+      "random_rough"
+    ],
+    [
+      "boxes",
+      "pyramid_stairs_inv",
+      "boxes",
+      "pyramid_stairs_inv",
+      "boxes",
+      "random_rough",
+      "random_rough",
+      "boxes",
+      "boxes",
+      "boxes"
+    ],
+    [
+      "hf_pyramid_slope",
+      "boxes",
+      "random_rough",
+      "pyramid_stairs",
+      "boxes",
+      "boxes",
+      "hf_pyramid_slope_inv",
+      "hf_pyramid_slope_inv",
+      "hf_pyramid_slope_inv",
+      "boxes"
+    ],
+    [
+      "random_rough",
+      "pyramid_stairs",
+      "hf_pyramid_slope",
+      "hf_pyramid_slope_inv",
+      "pyramid_stairs_inv",
+      "boxes",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "pyramid_stairs",
+      "boxes"
+    ],
+    [
+      "random_rough",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "boxes",
+      "pyramid_stairs",
+      "pyramid_stairs_inv",
+      "random_rough",
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv",
+      "pyramid_stairs_inv"
+    ]
+  ],
+  "tile_materials": [
+    [
+      "pyramid_stairs_inv_slippery",
+      "flat",
+      "boxes_high",
+      "flat",
+      "flat",
+      "random_rough_medium",
+      "flat",
+      "flat",
+      "pyramid_stairs_high",
+      "pyramid_stairs_inv_low"
+    ],
+    [
+      "pyramid_stairs_high",
+      "pyramid_stairs_inv_rubber",
+      "hf_pyramid_slope_low",
+      "boxes_ice",
+      "pyramid_stairs_rubber",
+      "boxes_high",
+      "hf_pyramid_slope_medium",
+      "hf_pyramid_slope_ice",
+      "random_rough_low",
+      "random_rough_rubber"
+    ],
+    [
+      "random_rough_slippery",
+      "hf_pyramid_slope_inv_high",
+      "flat",
+      "pyramid_stairs_ice",
+      "pyramid_stairs_medium",
+      "flat",
+      "flat",
+      "flat",
+      "flat",
+      "boxes_low"
+    ],
+    [
+      "pyramid_stairs_high",
+      "random_rough_ice",
+      "boxes_rubber",
+      "pyramid_stairs_medium",
+      "boxes_slippery",
+      "pyramid_stairs_inv_ice",
+      "hf_pyramid_slope_inv_rubber",
+      "random_rough_medium",
+      "boxes_medium",
+      "hf_pyramid_slope_rubber"
+    ],
+    [
+      "pyramid_stairs_ice",
+      "boxes_ice",
+      "flat",
+      "flat",
+      "flat",
+      "pyramid_stairs_inv_medium",
+      "flat",
+      "flat",
+      "flat",
+      "boxes_ice"
+    ],
+    [
+      "pyramid_stairs_low",
+      "pyramid_stairs_rubber",
+      "pyramid_stairs_inv_medium",
+      "pyramid_stairs_medium",
+      "boxes_low",
+      "pyramid_stairs_low",
+      "hf_pyramid_slope_inv_ice",
+      "random_rough_rubber",
+      "pyramid_stairs_ice",
+      "boxes_slippery"
+    ],
+    [
+      "pyramid_stairs_inv_medium",
+      "pyramid_stairs_inv_ice",
+      "flat",
+      "pyramid_stairs_inv_rubber",
+      "pyramid_stairs_ice",
+      "flat",
+      "boxes_rubber",
+      "hf_pyramid_slope_inv_medium",
+      "pyramid_stairs_rubber",
+      "pyramid_stairs_rubber"
+    ],
+    [
+      "random_rough_rubber",
+      "hf_pyramid_slope_slippery",
+      "hf_pyramid_slope_rubber",
+      "hf_pyramid_slope_low",
+      "boxes_medium",
+      "random_rough_ice",
+      "pyramid_stairs_inv_ice",
+      "random_rough_medium",
+      "pyramid_stairs_slippery",
+      "pyramid_stairs_rubber"
+    ],
+    [
+      "boxes_rubber",
+      "flat",
+      "random_rough_high",
+      "boxes_rubber",
+      "hf_pyramid_slope_high",
+      "pyramid_stairs_medium",
+      "pyramid_stairs_inv_slippery",
+      "hf_pyramid_slope_inv_rubber",
+      "flat",
+      "pyramid_stairs_high"
+    ],
+    [
+      "pyramid_stairs_slippery",
+      "pyramid_stairs_inv_ice",
+      "random_rough_high",
+      "pyramid_stairs_high",
+      "boxes_rubber",
+      "hf_pyramid_slope_inv_low",
+      "random_rough_medium",
+      "pyramid_stairs_inv_rubber",
+      "hf_pyramid_slope_inv_medium",
+      "random_rough_slippery"
+    ],
+    [
+      "boxes_slippery",
+      "boxes_low",
+      "random_rough_low",
+      "pyramid_stairs_inv_slippery",
+      "pyramid_stairs_inv_low",
+      "pyramid_stairs_inv_medium",
+      "hf_pyramid_slope_inv_slippery",
+      "hf_pyramid_slope_inv_slippery",
+      "pyramid_stairs_inv_rubber",
+      "random_rough_high"
+    ],
+    [
+      "hf_pyramid_slope_slippery",
+      "hf_pyramid_slope_medium",
+      "random_rough_ice",
+      "pyramid_stairs_inv_low",
+      "boxes_ice",
+      "pyramid_stairs_inv_high",
+      "hf_pyramid_slope_rubber",
+      "random_rough_low",
+      "pyramid_stairs_rubber",
+      "boxes_high"
+    ],
+    [
+      "random_rough_slippery",
+      "hf_pyramid_slope_inv_ice",
+      "hf_pyramid_slope_slippery",
+      "boxes_low",
+      "hf_pyramid_slope_ice",
+      "pyramid_stairs_inv_slippery",
+      "pyramid_stairs_medium",
+      "pyramid_stairs_inv_slippery",
+      "hf_pyramid_slope_inv_low",
+      "boxes_slippery"
+    ],
+    [
+      "pyramid_stairs_inv_ice",
+      "pyramid_stairs_inv_high",
+      "hf_pyramid_slope_high",
+      "random_rough_medium",
+      "pyramid_stairs_slippery",
+      "pyramid_stairs_low",
+      "pyramid_stairs_high",
+      "pyramid_stairs_low",
+      "pyramid_stairs_ice",
+      "boxes_high"
+    ],
+    [
+      "pyramid_stairs_slippery",
+      "pyramid_stairs_inv_low",
+      "pyramid_stairs_low",
+      "hf_pyramid_slope_inv_slippery",
+      "random_rough_high",
+      "pyramid_stairs_inv_high",
+      "random_rough_high",
+      "pyramid_stairs_inv_ice",
+      "random_rough_slippery",
+      "hf_pyramid_slope_high"
+    ],
+    [
+      "random_rough_low",
+      "random_rough_low",
+      "hf_pyramid_slope_inv_rubber",
+      "pyramid_stairs_inv_high",
+      "random_rough_ice",
+      "hf_pyramid_slope_inv_high",
+      "hf_pyramid_slope_medium",
+      "pyramid_stairs_medium",
+      "random_rough_rubber",
+      "random_rough_high"
+    ],
+    [
+      "boxes_high",
+      "pyramid_stairs_inv_rubber",
+      "boxes_rubber",
+      "pyramid_stairs_inv_rubber",
+      "boxes_medium",
+      "random_rough_ice",
+      "random_rough_rubber",
+      "boxes_ice",
+      "boxes_slippery",
+      "boxes_medium"
+    ],
+    [
+      "hf_pyramid_slope_ice",
+      "boxes_low",
+      "random_rough_rubber",
+      "pyramid_stairs_slippery",
+      "boxes_ice",
+      "boxes_medium",
+      "hf_pyramid_slope_inv_high",
+      "hf_pyramid_slope_inv_low",
+      "hf_pyramid_slope_inv_medium",
+      "boxes_low"
+    ],
+    [
+      "random_rough_ice",
+      "pyramid_stairs_ice",
+      "hf_pyramid_slope_low",
+      "hf_pyramid_slope_inv_ice",
+      "pyramid_stairs_inv_slippery",
+      "boxes_medium",
+      "random_rough_slippery",
+      "pyramid_stairs_inv_low",
+      "pyramid_stairs_low",
+      "boxes_slippery"
+    ],
+    [
+      "random_rough_slippery",
+      "random_rough_low",
+      "pyramid_stairs_inv_high",
+      "boxes_high",
+      "pyramid_stairs_slippery",
+      "pyramid_stairs_inv_medium",
+      "random_rough_medium",
+      "pyramid_stairs_inv_high",
+      "pyramid_stairs_inv_medium",
+      "pyramid_stairs_inv_low"
+    ]
+  ],
+  "tiles": [
+    {
+      "row": 0,
+      "col": 0,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.2002545840175438
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.5382469321797779
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.5465594462249671
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.30864511689918595
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.45480601851397373
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.1936718437560337
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.28468690712343736
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.2219037570039438
+    },
+    {
+      "row": 0,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.5248788573590772
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.46550333405046695
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.5300667016502901
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.359142769694768
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_low",
+      "difficulty": 0.30221858394677426
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.18744027243146646
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.2740485113544026
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.24814112357397194
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_medium",
+      "difficulty": 0.3489679724657856
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_ice",
+      "difficulty": 0.17442448822300488
+    },
+    {
+      "row": 1,
+      "col": 8,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.41630522278273085
+    },
+    {
+      "row": 1,
+      "col": 9,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.38839402617754026
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.33225198792951705
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_high",
+      "difficulty": 0.4904292914330972
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.19131765172654588
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.22591280139545855
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.36869152626152296
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.17304883738670798
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.23754623868206415
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.4598085882707389
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.5469706171208203
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.43177279377329814
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.4128052083779651
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.22014141455112324
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.39123156079507126
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.2112246244881081
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.4592511327002653
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.5259067824993967
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_rubber",
+      "difficulty": 0.4634466240103061
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.4087703397568754
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.4462138199507606
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_rubber",
+      "difficulty": 0.35814988796563474
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.4225421679721134
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.37118886389410616
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.22877630452018693
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.37909911431486876
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.38442778139567013
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.44924809991778014
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.24042099043569665
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.4003119693741223
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.5485077639674334
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.2678900578497527
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.4118148380268546
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.18941784913680268
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.15866041746073617
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.3220432608928934
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.24778800551437405
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.47212178086995993
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_ice",
+      "difficulty": 0.31784171682467
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.18135415761071264
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.2879287107700531
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.16586220413218838
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.21227649460584516
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.35971724294079777
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.5471387128090809
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.27182739245463117
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.19383501800748912
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.39686398249102206
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.30022448278023317
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_medium",
+      "difficulty": 0.372206044998193
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.5449058661659582
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.20260557520947314
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.3797764152576604
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_slippery",
+      "difficulty": 0.1752032702558119
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_rubber",
+      "difficulty": 0.2567161900259427
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_low",
+      "difficulty": 0.4661638114893113
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.20984255369529126
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.27256833043077217
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.3458472923370446
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.1651189121295742
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.5426609182981248
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.4832991092351636
+    },
+    {
+      "row": 8,
+      "col": 0,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.18596943546537292
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.4796417266704823
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.21592535360164242
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.377330560572938
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_high",
+      "difficulty": 0.41154262570740197
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.17593353597592926
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.2818878114171822
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_rubber",
+      "difficulty": 0.22304522316850028
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "type": "flat",
+      "material": "flat",
+      "difficulty": 0.15740186933319503
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.44898333540030455
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.17478526769436517
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.20976902733046945
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.1772017553770767
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.4765789644595926
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.4545850040864323
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_low",
+      "difficulty": 0.31426318733869485
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.2061051012249564
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.4518125630024338
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_medium",
+      "difficulty": 0.4503198104025208
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.3912916878579279
+    },
+    {
+      "row": 10,
+      "col": 0,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.34354614154316654
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.5235032241809926
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.3027702412559027
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.46268596272780216
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.3487409328369438
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.16698166732028827
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_slippery",
+      "difficulty": 0.26344448314065444
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_slippery",
+      "difficulty": 0.5006144093159571
+    },
+    {
+      "row": 10,
+      "col": 8,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.27202672677876316
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.2543808520934296
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_slippery",
+      "difficulty": 0.5152054786640731
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_medium",
+      "difficulty": 0.2815458089829877
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.32604250590867234
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.32262898566995124
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.4445745372027299
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.436660945711727
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_rubber",
+      "difficulty": 0.21740967335337355
+    },
+    {
+      "row": 11,
+      "col": 7,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.18663605034833544
+    },
+    {
+      "row": 11,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_rubber",
+      "difficulty": 0.2967960493686082
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.2809177046577025
+    },
+    {
+      "row": 12,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.3669889234132986
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_ice",
+      "difficulty": 0.20373165526829276
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_slippery",
+      "difficulty": 0.4938047851584554
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.3688821041117506
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_ice",
+      "difficulty": 0.43298003228941173
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.497089367995484
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.28219523601193064
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.1774066315543053
+    },
+    {
+      "row": 12,
+      "col": 8,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_low",
+      "difficulty": 0.1971559552399333
+    },
+    {
+      "row": 12,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.17429682887739975
+    },
+    {
+      "row": 13,
+      "col": 0,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.22626523426381887
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.5390813764449754
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_high",
+      "difficulty": 0.4405018817412887
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.4228840187493068
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.4942155978021193
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.4090796924058686
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_high",
+      "difficulty": 0.38026702943325624
+    },
+    {
+      "row": 13,
+      "col": 7,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.3170268298578867
+    },
+    {
+      "row": 13,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.21924826036927486
+    },
+    {
+      "row": 13,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.341002080747858
+    },
+    {
+      "row": 14,
+      "col": 0,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.2553462594449104
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.3207475733099827
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.3620351670338423
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_slippery",
+      "difficulty": 0.17229055078303857
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.3212259958670135
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.20256962074253484
+    },
+    {
+      "row": 14,
+      "col": 6,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.2723340934123054
+    },
+    {
+      "row": 14,
+      "col": 7,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_ice",
+      "difficulty": 0.3086638265957214
+    },
+    {
+      "row": 14,
+      "col": 8,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.2547286672088001
+    },
+    {
+      "row": 14,
+      "col": 9,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_high",
+      "difficulty": 0.47374410459412963
+    },
+    {
+      "row": 15,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.3261027682110751
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.17317226074990466
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_rubber",
+      "difficulty": 0.30893325005655914
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.41919797148195714
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.29523651955773533
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_high",
+      "difficulty": 0.5450155930271291
+    },
+    {
+      "row": 15,
+      "col": 6,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_medium",
+      "difficulty": 0.4334657395555256
+    },
+    {
+      "row": 15,
+      "col": 7,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_medium",
+      "difficulty": 0.49196045026877466
+    },
+    {
+      "row": 15,
+      "col": 8,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.15144364587727782
+    },
+    {
+      "row": 15,
+      "col": 9,
+      "type": "random_rough",
+      "material": "random_rough_high",
+      "difficulty": 0.4286932578637216
+    },
+    {
+      "row": 16,
+      "col": 0,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.49249995069128405
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.19584787151755267
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "type": "boxes",
+      "material": "boxes_rubber",
+      "difficulty": 0.4614786630241636
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_rubber",
+      "difficulty": 0.20789957985087285
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.3787341322050666
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.3408314750671775
+    },
+    {
+      "row": 16,
+      "col": 6,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.17043221356788005
+    },
+    {
+      "row": 16,
+      "col": 7,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.4319743775234237
+    },
+    {
+      "row": 16,
+      "col": 8,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.1764571309677813
+    },
+    {
+      "row": 16,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.25393217682978964
+    },
+    {
+      "row": 17,
+      "col": 0,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_ice",
+      "difficulty": 0.43031425052521877
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.3113888220693906
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "type": "random_rough",
+      "material": "random_rough_rubber",
+      "difficulty": 0.17453228654491784
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.45927951719628746
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "type": "boxes",
+      "material": "boxes_ice",
+      "difficulty": 0.2906720382594883
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.4275652203991065
+    },
+    {
+      "row": 17,
+      "col": 6,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_high",
+      "difficulty": 0.5293641444438688
+    },
+    {
+      "row": 17,
+      "col": 7,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_low",
+      "difficulty": 0.418834051585961
+    },
+    {
+      "row": 17,
+      "col": 8,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_medium",
+      "difficulty": 0.2642510378406794
+    },
+    {
+      "row": 17,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_low",
+      "difficulty": 0.2513286401791674
+    },
+    {
+      "row": 18,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_ice",
+      "difficulty": 0.17020298756858723
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_ice",
+      "difficulty": 0.22425540121899012
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "type": "hf_pyramid_slope",
+      "material": "hf_pyramid_slope_low",
+      "difficulty": 0.3936005683551563
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "type": "hf_pyramid_slope_inv",
+      "material": "hf_pyramid_slope_inv_ice",
+      "difficulty": 0.40855016934244437
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_slippery",
+      "difficulty": 0.2694048053773278
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "type": "boxes",
+      "material": "boxes_medium",
+      "difficulty": 0.47329609266670114
+    },
+    {
+      "row": 18,
+      "col": 6,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.31948792370411083
+    },
+    {
+      "row": 18,
+      "col": 7,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.5173704900657803
+    },
+    {
+      "row": 18,
+      "col": 8,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_low",
+      "difficulty": 0.2886115965859817
+    },
+    {
+      "row": 18,
+      "col": 9,
+      "type": "boxes",
+      "material": "boxes_slippery",
+      "difficulty": 0.41465859025594853
+    },
+    {
+      "row": 19,
+      "col": 0,
+      "type": "random_rough",
+      "material": "random_rough_slippery",
+      "difficulty": 0.23426841894211264
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "type": "random_rough",
+      "material": "random_rough_low",
+      "difficulty": 0.2572277632479719
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.3580795113129394
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "type": "boxes",
+      "material": "boxes_high",
+      "difficulty": 0.5379377947950831
+    },
+    {
+      "row": 19,
+      "col": 4,
+      "type": "pyramid_stairs",
+      "material": "pyramid_stairs_slippery",
+      "difficulty": 0.3014525703313581
+    },
+    {
+      "row": 19,
+      "col": 5,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.31524754018512346
+    },
+    {
+      "row": 19,
+      "col": 6,
+      "type": "random_rough",
+      "material": "random_rough_medium",
+      "difficulty": 0.3015235729697504
+    },
+    {
+      "row": 19,
+      "col": 7,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_high",
+      "difficulty": 0.5057657982754155
+    },
+    {
+      "row": 19,
+      "col": 8,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_medium",
+      "difficulty": 0.3729609228510604
+    },
+    {
+      "row": 19,
+      "col": 9,
+      "type": "pyramid_stairs_inv",
+      "material": "pyramid_stairs_inv_low",
+      "difficulty": 0.4319675271081309
+    }
+  ],
+  "evaluation": {
+    "purpose": "evaluation_only",
+    "seed": 24,
+    "num_envs": 100,
+    "root_height_offset": 0.5,
+    "initial_yaw": 0.0,
+    "edge_margin": 2.0,
+    "forward_type_counts": {
+      "pyramid_stairs": 20,
+      "pyramid_stairs_inv": 20,
+      "random_rough": 20,
+      "hf_pyramid_slope_inv": 10,
+      "hf_pyramid_slope": 10,
+      "boxes": 20
+    },
+    "forward_material_counts": {
+      "pyramid_stairs_ice": 7,
+      "pyramid_stairs_inv_medium": 7,
+      "pyramid_stairs_inv_ice": 7,
+      "random_rough_ice": 6,
+      "hf_pyramid_slope_inv_rubber": 3,
+      "random_rough_rubber": 7,
+      "hf_pyramid_slope_rubber": 3,
+      "random_rough_medium": 7,
+      "hf_pyramid_slope_inv_ice": 3,
+      "boxes_medium": 7,
+      "pyramid_stairs_medium": 7,
+      "boxes_ice": 6,
+      "pyramid_stairs_rubber": 6,
+      "pyramid_stairs_inv_rubber": 6,
+      "hf_pyramid_slope_ice": 3,
+      "hf_pyramid_slope_medium": 4,
+      "boxes_rubber": 7,
+      "hf_pyramid_slope_inv_medium": 4
+    },
+    "starts": [
+      {
+        "env_id": 0,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.14961532953255,
+          29.353025681400283,
+          0.0
+        ],
+        "root_position": [
+          -42.14961532953255,
+          29.353025681400283,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 1,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.69701271972104,
+          -20.82463311714579,
+          0.0
+        ],
+        "root_position": [
+          -42.69701271972104,
+          -20.82463311714579,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 2,
+        "tile": [
+          8,
+          1
+        ],
+        "ground_position": [
+          -10.255364478325912,
+          -29.74652624731013,
+          0.0
+        ],
+        "root_position": [
+          -10.255364478325912,
+          -29.74652624731013,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 3,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.089173523617283,
+          5.6993599099879155,
+          0.0
+        ],
+        "root_position": [
+          -26.089173523617283,
+          5.6993599099879155,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 4,
+        "tile": [
+          2,
+          6
+        ],
+        "ground_position": [
+          -58.30789791311529,
+          11.677046608931464,
+          0.0
+        ],
+        "root_position": [
+          -58.30789791311529,
+          11.677046608931464,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_rubber"
+      },
+      {
+        "env_id": 5,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.09488663605492,
+          19.070050700028826,
+          0.0
+        ],
+        "root_position": [
+          -42.09488663605492,
+          19.070050700028826,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 6,
+        "tile": [
+          8,
+          1
+        ],
+        "ground_position": [
+          -10.322279775438869,
+          -28.514484038395388,
+          0.0
+        ],
+        "root_position": [
+          -10.322279775438869,
+          -28.514484038395388,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 7,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.602860190651576,
+          26.077587350648034,
+          0.0
+        ],
+        "root_position": [
+          -42.602860190651576,
+          26.077587350648034,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 8,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.207155055790295,
+          -21.326115346410372,
+          0.0
+        ],
+        "root_position": [
+          -42.207155055790295,
+          -21.326115346410372,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 9,
+        "tile": [
+          6,
+          2
+        ],
+        "ground_position": [
+          -26.154962657943244,
+          -19.88178891977752,
+          0.0
+        ],
+        "root_position": [
+          -26.154962657943244,
+          -19.88178891977752,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          2
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_rubber"
+      },
+      {
+        "env_id": 10,
+        "tile": [
+          2,
+          5
+        ],
+        "ground_position": [
+          -58.05488701577696,
+          2.5349789612186457,
+          0.0
+        ],
+        "root_position": [
+          -58.05488701577696,
+          2.5349789612186457,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          5
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 11,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.88715116065398,
+          -21.671569286220823,
+          0.0
+        ],
+        "root_position": [
+          -42.88715116065398,
+          -21.671569286220823,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 12,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.06552263331619,
+          20.227057485827082,
+          0.0
+        ],
+        "root_position": [
+          -58.06552263331619,
+          20.227057485827082,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 13,
+        "tile": [
+          6,
+          2
+        ],
+        "ground_position": [
+          -26.95041356844291,
+          -18.370830943204766,
+          0.0
+        ],
+        "root_position": [
+          -26.95041356844291,
+          -18.370830943204766,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          2
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_rubber"
+      },
+      {
+        "env_id": 14,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.896166824818078,
+          2.7313606474108054,
+          0.0
+        ],
+        "root_position": [
+          -26.896166824818078,
+          2.7313606474108054,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 15,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.22083893787814,
+          21.059872838220144,
+          0.0
+        ],
+        "root_position": [
+          -58.22083893787814,
+          21.059872838220144,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 16,
+        "tile": [
+          4,
+          6
+        ],
+        "ground_position": [
+          -42.47828265500001,
+          11.224480249125165,
+          0.0
+        ],
+        "root_position": [
+          -42.47828265500001,
+          11.224480249125165,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_ice"
+      },
+      {
+        "env_id": 17,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.53948517405719,
+          27.513854307256583,
+          0.0
+        ],
+        "root_position": [
+          -58.53948517405719,
+          27.513854307256583,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 18,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.65874846219357,
+          -13.235651179226013,
+          0.0
+        ],
+        "root_position": [
+          -42.65874846219357,
+          -13.235651179226013,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 19,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.81836485764675,
+          -20.23642355300717,
+          0.0
+        ],
+        "root_position": [
+          -42.81836485764675,
+          -20.23642355300717,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 20,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.7178623455915,
+          -10.517732654528814,
+          0.0
+        ],
+        "root_position": [
+          -74.7178623455915,
+          -10.517732654528814,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 21,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.35872555807443,
+          -5.459097974026099,
+          0.0
+        ],
+        "root_position": [
+          -74.35872555807443,
+          -5.459097974026099,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 22,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.69284791511024,
+          -27.00966198334726,
+          0.0
+        ],
+        "root_position": [
+          -74.69284791511024,
+          -27.00966198334726,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 23,
+        "tile": [
+          0,
+          7
+        ],
+        "ground_position": [
+          -74.08056947387405,
+          19.84645620175619,
+          0.0
+        ],
+        "root_position": [
+          -74.08056947387405,
+          19.84645620175619,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          7
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_ice"
+      },
+      {
+        "env_id": 24,
+        "tile": [
+          0,
+          6
+        ],
+        "ground_position": [
+          -74.78597391116216,
+          13.922532785667542,
+          0.0
+        ],
+        "root_position": [
+          -74.78597391116216,
+          13.922532785667542,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_medium"
+      },
+      {
+        "env_id": 25,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.4135342587468,
+          -10.031777061232562,
+          0.0
+        ],
+        "root_position": [
+          -42.4135342587468,
+          -10.031777061232562,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 26,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.31082742756463,
+          2.6224859017979094,
+          0.0
+        ],
+        "root_position": [
+          -26.31082742756463,
+          2.6224859017979094,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 27,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.06788940598454,
+          26.675123954330047,
+          0.0
+        ],
+        "root_position": [
+          -42.06788940598454,
+          26.675123954330047,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 28,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.26710162442233,
+          -21.09432470760938,
+          0.0
+        ],
+        "root_position": [
+          -58.26710162442233,
+          -21.09432470760938,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 29,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.72396035263481,
+          -20.09706822993597,
+          0.0
+        ],
+        "root_position": [
+          -58.72396035263481,
+          -20.09706822993597,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 30,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.107451943092116,
+          -20.944250665986896,
+          0.0
+        ],
+        "root_position": [
+          -58.107451943092116,
+          -20.944250665986896,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 31,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.054350424750666,
+          -11.793115935244947,
+          0.0
+        ],
+        "root_position": [
+          -42.054350424750666,
+          -11.793115935244947,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 32,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.757818763372846,
+          -19.469589007000337,
+          0.0
+        ],
+        "root_position": [
+          -42.757818763372846,
+          -19.469589007000337,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 33,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.06799807236435,
+          19.45791154601972,
+          0.0
+        ],
+        "root_position": [
+          -42.06799807236435,
+          19.45791154601972,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 34,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.20497694747367,
+          -10.276170314767395,
+          0.0
+        ],
+        "root_position": [
+          -74.20497694747367,
+          -10.276170314767395,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 35,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.667284182645666,
+          18.34093991988897,
+          0.0
+        ],
+        "root_position": [
+          -58.667284182645666,
+          18.34093991988897,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 36,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.15809034611942,
+          27.808602015890422,
+          0.0
+        ],
+        "root_position": [
+          -58.15809034611942,
+          27.808602015890422,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 37,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.52870617386434,
+          -12.345239423577826,
+          0.0
+        ],
+        "root_position": [
+          -74.52870617386434,
+          -12.345239423577826,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 38,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.89152325568328,
+          -3.9239102890931714,
+          0.0
+        ],
+        "root_position": [
+          -74.89152325568328,
+          -3.9239102890931714,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 39,
+        "tile": [
+          0,
+          7
+        ],
+        "ground_position": [
+          -74.36637739252829,
+          20.16471123194524,
+          0.0
+        ],
+        "root_position": [
+          -74.36637739252829,
+          20.16471123194524,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          7
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_ice"
+      },
+      {
+        "env_id": 40,
+        "tile": [
+          8,
+          8
+        ],
+        "ground_position": [
+          -10.416760521688492,
+          27.43804317652159,
+          0.0
+        ],
+        "root_position": [
+          -10.416760521688492,
+          27.43804317652159,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          8
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_medium"
+      },
+      {
+        "env_id": 41,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.08952412975115,
+          21.048288514804717,
+          0.0
+        ],
+        "root_position": [
+          -42.08952412975115,
+          21.048288514804717,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 42,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.64275734766295,
+          -2.2071656550765626,
+          0.0
+        ],
+        "root_position": [
+          -74.64275734766295,
+          -2.2071656550765626,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 43,
+        "tile": [
+          0,
+          6
+        ],
+        "ground_position": [
+          -74.48315464516897,
+          12.443782795368067,
+          0.0
+        ],
+        "root_position": [
+          -74.48315464516897,
+          12.443782795368067,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_medium"
+      },
+      {
+        "env_id": 44,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.84312892498013,
+          -19.92196387500737,
+          0.0
+        ],
+        "root_position": [
+          -58.84312892498013,
+          -19.92196387500737,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 45,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.71246054120748,
+          21.51866329204785,
+          0.0
+        ],
+        "root_position": [
+          -42.71246054120748,
+          21.51866329204785,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 46,
+        "tile": [
+          0,
+          7
+        ],
+        "ground_position": [
+          -74.15307669655009,
+          18.568947982224483,
+          0.0
+        ],
+        "root_position": [
+          -74.15307669655009,
+          18.568947982224483,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          7
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_ice"
+      },
+      {
+        "env_id": 47,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.10843524452136,
+          26.304678685709725,
+          0.0
+        ],
+        "root_position": [
+          -58.10843524452136,
+          26.304678685709725,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 48,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.08511783924371,
+          -13.011375292862926,
+          0.0
+        ],
+        "root_position": [
+          -74.08511783924371,
+          -13.011375292862926,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 49,
+        "tile": [
+          8,
+          1
+        ],
+        "ground_position": [
+          -10.046522952916296,
+          -26.934463277873714,
+          0.0
+        ],
+        "root_position": [
+          -10.046522952916296,
+          -26.934463277873714,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 50,
+        "tile": [
+          0,
+          6
+        ],
+        "ground_position": [
+          -74.09042935418127,
+          12.916839874696022,
+          0.0
+        ],
+        "root_position": [
+          -74.09042935418127,
+          12.916839874696022,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_medium"
+      },
+      {
+        "env_id": 51,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.05228449332913,
+          -19.578818749264403,
+          0.0
+        ],
+        "root_position": [
+          -58.05228449332913,
+          -19.578818749264403,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 52,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.656677412791403,
+          4.9231551044960264,
+          0.0
+        ],
+        "root_position": [
+          -26.656677412791403,
+          4.9231551044960264,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 53,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.03856221900707,
+          2.804807106943461,
+          0.0
+        ],
+        "root_position": [
+          -26.03856221900707,
+          2.804807106943461,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 54,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.39940000011824,
+          -21.07749834734366,
+          0.0
+        ],
+        "root_position": [
+          -58.39940000011824,
+          -21.07749834734366,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 55,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.037315037287044,
+          21.916209828296314,
+          0.0
+        ],
+        "root_position": [
+          -42.037315037287044,
+          21.916209828296314,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 56,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.532220203135594,
+          19.456026146019997,
+          0.0
+        ],
+        "root_position": [
+          -58.532220203135594,
+          19.456026146019997,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 57,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.529911251057975,
+          28.957135015462164,
+          0.0
+        ],
+        "root_position": [
+          -42.529911251057975,
+          28.957135015462164,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 58,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.014104145410926,
+          18.657374696033038,
+          0.0
+        ],
+        "root_position": [
+          -42.014104145410926,
+          18.657374696033038,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 59,
+        "tile": [
+          4,
+          6
+        ],
+        "ground_position": [
+          -42.052772095196296,
+          13.506509502915044,
+          0.0
+        ],
+        "root_position": [
+          -42.052772095196296,
+          13.506509502915044,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_ice"
+      },
+      {
+        "env_id": 60,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.44260299896648,
+          -3.982479198936072,
+          0.0
+        ],
+        "root_position": [
+          -74.44260299896648,
+          -3.982479198936072,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 61,
+        "tile": [
+          2,
+          2
+        ],
+        "ground_position": [
+          -58.26408471225733,
+          -18.66092972602002,
+          0.0
+        ],
+        "root_position": [
+          -58.26408471225733,
+          -18.66092972602002,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          2
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_rubber"
+      },
+      {
+        "env_id": 62,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.42436302310476,
+          -29.31384992599433,
+          0.0
+        ],
+        "root_position": [
+          -74.42436302310476,
+          -29.31384992599433,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 63,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.39738754285952,
+          -26.139309264060188,
+          0.0
+        ],
+        "root_position": [
+          -74.39738754285952,
+          -26.139309264060188,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 64,
+        "tile": [
+          2,
+          6
+        ],
+        "ground_position": [
+          -58.38031105664634,
+          10.51041551427554,
+          0.0
+        ],
+        "root_position": [
+          -58.38031105664634,
+          10.51041551427554,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_rubber"
+      },
+      {
+        "env_id": 65,
+        "tile": [
+          6,
+          2
+        ],
+        "ground_position": [
+          -26.657198237955797,
+          -20.885258513026752,
+          0.0
+        ],
+        "root_position": [
+          -26.657198237955797,
+          -20.885258513026752,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          2
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_rubber"
+      },
+      {
+        "env_id": 66,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.35575906209314,
+          -5.501265578528569,
+          0.0
+        ],
+        "root_position": [
+          -74.35575906209314,
+          -5.501265578528569,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 67,
+        "tile": [
+          8,
+          1
+        ],
+        "ground_position": [
+          -10.07352095203751,
+          -27.51399379084587,
+          0.0
+        ],
+        "root_position": [
+          -10.07352095203751,
+          -27.51399379084587,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 68,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.52256696501545,
+          -13.126365784917365,
+          0.0
+        ],
+        "root_position": [
+          -42.52256696501545,
+          -13.126365784917365,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 69,
+        "tile": [
+          8,
+          8
+        ],
+        "ground_position": [
+          -10.56578729933697,
+          28.01429952872899,
+          0.0
+        ],
+        "root_position": [
+          -10.56578729933697,
+          28.01429952872899,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          8
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_medium"
+      },
+      {
+        "env_id": 70,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.280621708965285,
+          -11.914231714130295,
+          0.0
+        ],
+        "root_position": [
+          -42.280621708965285,
+          -11.914231714130295,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 71,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.88842373548689,
+          26.041968915651125,
+          0.0
+        ],
+        "root_position": [
+          -58.88842373548689,
+          26.041968915651125,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 72,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.275960746609,
+          29.183971149101012,
+          0.0
+        ],
+        "root_position": [
+          -58.275960746609,
+          29.183971149101012,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 73,
+        "tile": [
+          2,
+          5
+        ],
+        "ground_position": [
+          -58.476051725429365,
+          3.426539180104585,
+          0.0
+        ],
+        "root_position": [
+          -58.476051725429365,
+          3.426539180104585,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          5
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 74,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.58911567529205,
+          29.662501671611203,
+          0.0
+        ],
+        "root_position": [
+          -42.58911567529205,
+          29.662501671611203,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 75,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.17941928462577,
+          29.86933294157308,
+          0.0
+        ],
+        "root_position": [
+          -58.17941928462577,
+          29.86933294157308,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 76,
+        "tile": [
+          4,
+          7
+        ],
+        "ground_position": [
+          -42.15351570323047,
+          21.078269554148147,
+          0.0
+        ],
+        "root_position": [
+          -42.15351570323047,
+          21.078269554148147,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_rubber"
+      },
+      {
+        "env_id": 77,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.85307774990262,
+          -12.705602326306355,
+          0.0
+        ],
+        "root_position": [
+          -42.85307774990262,
+          -12.705602326306355,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 78,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.1206057082937,
+          -29.064777524016744,
+          0.0
+        ],
+        "root_position": [
+          -74.1206057082937,
+          -29.064777524016744,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 79,
+        "tile": [
+          2,
+          8
+        ],
+        "ground_position": [
+          -58.051516754634804,
+          29.37255934360185,
+          0.0
+        ],
+        "root_position": [
+          -58.051516754634804,
+          29.37255934360185,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          8
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_medium"
+      },
+      {
+        "env_id": 80,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.114133349697084,
+          -19.002149253111487,
+          0.0
+        ],
+        "root_position": [
+          -42.114133349697084,
+          -19.002149253111487,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 81,
+        "tile": [
+          6,
+          5
+        ],
+        "ground_position": [
+          -26.380934000731713,
+          5.847198345579081,
+          0.0
+        ],
+        "root_position": [
+          -26.380934000731713,
+          5.847198345579081,
+          0.5
+        ],
+        "forward_tile": [
+          7,
+          5
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_ice"
+      },
+      {
+        "env_id": 82,
+        "tile": [
+          8,
+          1
+        ],
+        "ground_position": [
+          -10.56613317488382,
+          -28.118685964308902,
+          0.0
+        ],
+        "root_position": [
+          -10.56613317488382,
+          -28.118685964308902,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_ice"
+      },
+      {
+        "env_id": 83,
+        "tile": [
+          4,
+          3
+        ],
+        "ground_position": [
+          -42.71727680144195,
+          -11.0649082073808,
+          0.0
+        ],
+        "root_position": [
+          -42.71727680144195,
+          -11.0649082073808,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          3
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_medium"
+      },
+      {
+        "env_id": 84,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.608039197403166,
+          21.552715753276743,
+          0.0
+        ],
+        "root_position": [
+          -58.608039197403166,
+          21.552715753276743,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 85,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.023871747424,
+          -26.702705264434833,
+          0.0
+        ],
+        "root_position": [
+          -74.023871747424,
+          -26.702705264434833,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 86,
+        "tile": [
+          4,
+          6
+        ],
+        "ground_position": [
+          -42.18109562642784,
+          10.034895742518776,
+          0.0
+        ],
+        "root_position": [
+          -42.18109562642784,
+          10.034895742518776,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_ice"
+      },
+      {
+        "env_id": 87,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.98362917768817,
+          21.146284637464618,
+          0.0
+        ],
+        "root_position": [
+          -58.98362917768817,
+          21.146284637464618,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 88,
+        "tile": [
+          4,
+          2
+        ],
+        "ground_position": [
+          -42.36852683212742,
+          -21.874628752491432,
+          0.0
+        ],
+        "root_position": [
+          -42.36852683212742,
+          -21.874628752491432,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          2
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_medium"
+      },
+      {
+        "env_id": 89,
+        "tile": [
+          2,
+          7
+        ],
+        "ground_position": [
+          -58.92774206646443,
+          18.726231503359852,
+          0.0
+        ],
+        "root_position": [
+          -58.92774206646443,
+          18.726231503359852,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          7
+        ],
+        "forward_type": "random_rough",
+        "forward_material": "random_rough_medium"
+      },
+      {
+        "env_id": 90,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.08785476983242,
+          26.681792806787474,
+          0.0
+        ],
+        "root_position": [
+          -42.08785476983242,
+          26.681792806787474,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 91,
+        "tile": [
+          0,
+          4
+        ],
+        "ground_position": [
+          -74.42231457101738,
+          -3.6288894041830955,
+          0.0
+        ],
+        "root_position": [
+          -74.42231457101738,
+          -3.6288894041830955,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          4
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_rubber"
+      },
+      {
+        "env_id": 92,
+        "tile": [
+          0,
+          6
+        ],
+        "ground_position": [
+          -74.35354700419612,
+          12.987058386632544,
+          0.0
+        ],
+        "root_position": [
+          -74.35354700419612,
+          12.987058386632544,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope",
+        "forward_material": "hf_pyramid_slope_medium"
+      },
+      {
+        "env_id": 93,
+        "tile": [
+          2,
+          6
+        ],
+        "ground_position": [
+          -58.24522609074742,
+          12.72028967148834,
+          0.0
+        ],
+        "root_position": [
+          -58.24522609074742,
+          12.72028967148834,
+          0.5
+        ],
+        "forward_tile": [
+          3,
+          6
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_rubber"
+      },
+      {
+        "env_id": 94,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.33871061104992,
+          -10.138259947952161,
+          0.0
+        ],
+        "root_position": [
+          -74.33871061104992,
+          -10.138259947952161,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 95,
+        "tile": [
+          0,
+          3
+        ],
+        "ground_position": [
+          -74.32950005696785,
+          -11.760503970465011,
+          0.0
+        ],
+        "root_position": [
+          -74.32950005696785,
+          -11.760503970465011,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          3
+        ],
+        "forward_type": "boxes",
+        "forward_material": "boxes_ice"
+      },
+      {
+        "env_id": 96,
+        "tile": [
+          4,
+          8
+        ],
+        "ground_position": [
+          -42.134741096613304,
+          28.884106017052254,
+          0.0
+        ],
+        "root_position": [
+          -42.134741096613304,
+          28.884106017052254,
+          0.5
+        ],
+        "forward_tile": [
+          5,
+          8
+        ],
+        "forward_type": "pyramid_stairs",
+        "forward_material": "pyramid_stairs_ice"
+      },
+      {
+        "env_id": 97,
+        "tile": [
+          8,
+          8
+        ],
+        "ground_position": [
+          -10.615922760904104,
+          29.701957281368365,
+          0.0
+        ],
+        "root_position": [
+          -10.615922760904104,
+          29.701957281368365,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          8
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_medium"
+      },
+      {
+        "env_id": 98,
+        "tile": [
+          0,
+          1
+        ],
+        "ground_position": [
+          -74.57401982503269,
+          -28.391561151171683,
+          0.0
+        ],
+        "root_position": [
+          -74.57401982503269,
+          -28.391561151171683,
+          0.5
+        ],
+        "forward_tile": [
+          1,
+          1
+        ],
+        "forward_type": "pyramid_stairs_inv",
+        "forward_material": "pyramid_stairs_inv_rubber"
+      },
+      {
+        "env_id": 99,
+        "tile": [
+          8,
+          8
+        ],
+        "ground_position": [
+          -10.69248824650842,
+          27.59183248798619,
+          0.0
+        ],
+        "root_position": [
+          -10.69248824650842,
+          27.59183248798619,
+          0.5
+        ],
+        "forward_tile": [
+          9,
+          8
+        ],
+        "forward_type": "hf_pyramid_slope_inv",
+        "forward_material": "hf_pyramid_slope_inv_medium"
+      }
+    ]
+  },
+  "usd_file": "heldout_seed20261008_friction_spectrum.usd",
+  "usd_sha256": "3c1a262cd3ffbd838e488b75175f5fed82382e253ba92b5c0a0269b01ab9df4b"
+}
